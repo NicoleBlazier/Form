@@ -1,0 +1,34 @@
+body {
+    box-sizing: border-box;
+    width: 800px;
+    margin: auto;
+}
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: left;
+    margin-left: 15rem;
+}
+.input {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0.5rem;
+    width: 400px;
+}
+label {
+    width: 25%;
+}
+input {
+    width: 150%;
+}
+.btn {
+    width: 300px;
+}
+.align {
+    display: flex;
+    width: 40%;
+}
+textarea {
+    width: 100%;
+    height: 80px;
+}
